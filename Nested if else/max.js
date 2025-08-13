@@ -78,7 +78,7 @@ if (a > b) {
         if (c > b) {
             console.log("c is max")
         } else {
-            
+            console.log("b is max")
         }
     }
 } else {
