@@ -1,12 +1,13 @@
-// 1 2 3 4 5
-// 2 3 4 5
-// 3 4 5
-// 4 5
+// 5 4 3 2 1
+// 5 4 3 2
+// 5 4 3
+// 5 4
 // 5
 
 for(let i=1; i<=5; i++){
-    for(let j=i; j<=5; j++){
+    for(let j=5; j>=i; j--){
         document.writeln(j)
     }
     document.writeln("<br>")
 }
+
